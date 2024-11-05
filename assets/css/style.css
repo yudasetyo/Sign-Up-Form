@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.signup {
+  display: flex;
+}
+
+.signup__section--left {
+  position: relative;
+  background-image: url("../image/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  width: 30%;
+  height: 100vh;
+}
+
+.signup__logo {
+  position: absolute;
+  top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 20px 0;
+  height: 100px;
+}
+
+.signup__logo-image {
+  width: 15%;
+}
+
+.signup__logo-text {
+  color: white;
+  font-size: 80px;
+}
+
+.signup__credit {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.signup__credit a {
+  color: white;
+}
+
+.signup__section--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(236, 236, 236);
+  width: 70%;
+}
+
+.signup__intro {
+  padding: 0 220px 0 50px;
+}
+
+.signup__intro-text {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.signup__form {
+  padding: 10px 50px;
+  background-color: white;
+}
+
+.signup__form-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.signup__form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup__form-label {
+  margin: 2px 0;
+}
+
+.signup__form-input {
+  width: 300px;
+  height: 25px;
+  border: 1px solid #e5e7eb;
+}
+
+.signup__form-input:focus {
+  border: 1px solid rgb(127, 127, 223);
+  box-shadow: 1px 1px 5px rgb(39, 39, 228);
+}
+
+.signup__form-input:invalid {
+  border: 1px solid red;
+}
+
+.signup__actions {
+  padding: 0 50px;
+  margin-top: 20px;
+}
+
+.signup__submit {
+  width: 170px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #596d48;
+  color: white;
+  font-weight: 600;
+}
+
+.signup__login > a {
+  font-weight: bold;
+  color: #596d48;
+  text-decoration: none;
+}
